@@ -1,5 +1,5 @@
 {
-  "name": "advent-of-code",
+  "name": "advent-of-code-2018",
   "version": "1.0.0",
   "description": "small programming puzzles",
   "main": "",
@@ -27,5 +27,8 @@
     "eslint-plugin-jest": "^22.1.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }

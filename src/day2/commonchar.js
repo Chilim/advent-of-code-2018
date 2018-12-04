@@ -1,7 +1,6 @@
 
 export default (data) => {
   const arr = data.split('\n');
-  console.log(arr);
   const iter = (coll, acc = []) => {
     if (coll.length === 0) {
       return acc;

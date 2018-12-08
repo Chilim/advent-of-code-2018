@@ -65,13 +65,13 @@ For example, suppose you want the sum of the Manhattan distance to all of the co
 ```
 In particular, consider the highlighted location `4`,`3` located at the top middle of the region. Its calculation is as follows, where `abs()` is the absolute value function:
 
-Distance to coordinate A: `abs(4-1) + abs(3-1) =  5`
-Distance to coordinate B: `abs(4-1) + abs(3-6) =  6`
-Distance to coordinate C: `abs(4-8) + abs(3-3) =  4`
-Distance to coordinate D: `abs(4-3) + abs(3-4) =  2`
-Distance to coordinate E: `abs(4-5) + abs(3-5) =  3`
-Distance to coordinate F: `abs(4-8) + abs(3-9) = 10`
-Total distance: `5 + 6 + 4 + 2 + 3 + 10 = 30`
+* Distance to coordinate A: `abs(4-1) + abs(3-1) =  5`
+* Distance to coordinate B: `abs(4-1) + abs(3-6) =  6`
+* Distance to coordinate C: `abs(4-8) + abs(3-3) =  4`
+* Distance to coordinate D: `abs(4-3) + abs(3-4) =  2`
+* Distance to coordinate E: `abs(4-5) + abs(3-5) =  3`
+* Distance to coordinate F: `abs(4-8) + abs(3-9) = 10`
+* Total distance: `5 + 6 + 4 + 2 + 3 + 10 = 30`
 
 Because the total distance to all coordinates (`30`) is less than `32`, the location is **within the region**.
 
